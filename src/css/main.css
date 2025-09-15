@@ -38,7 +38,6 @@ p {
 
 .logos {
   display: flex;
-  width: 320px;
   padding: 0 59px;
   justify-content: center;
   align-items: center;
@@ -56,4 +55,35 @@ p {
 
 .download-title {
   margin: 5px 0px;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .logos {
+    margin: 50px 0px;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  .description-title,
+  .description-content {
+    text-align: left;
+  }
+  .description-content {
+    font-size: 20px;
+  }
+
+  .logos {
+    justify-content: left;
+  }
 }
