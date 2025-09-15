@@ -6,6 +6,8 @@
 
 body {
   padding: 20px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 a {
@@ -15,4 +17,43 @@ a {
 img,
 video {
   display: block;
+}
+
+h2 {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.logos {
+  display: flex;
+  width: 320px;
+  padding: 0 59px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.description-title {
+  margin-bottom: 20px;
+}
+
+.download-title {
+  margin: 5px 0px;
 }
