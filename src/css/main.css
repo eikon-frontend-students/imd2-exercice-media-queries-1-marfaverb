@@ -85,5 +85,9 @@ p {
 
   .logos {
     justify-content: left;
+    gap: 30px;
+  }
+  .logos img {
+    width: 100px;
   }
 }
